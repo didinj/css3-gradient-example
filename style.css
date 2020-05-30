@@ -1,0 +1,110 @@
+section {
+    margin: auto;
+    color: white;
+}
+
+/* Linear Gradient */
+
+.linear-grad {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: linear-gradient(blue, lightblue);
+}
+
+.linear-grad-2 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: linear-gradient(blue, rgb(7, 136, 179, 1), #bbb4ff);
+}
+
+
+.linear-grad-3 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: linear-gradient(to right, blue, rgb(7, 136, 179, 1), #bbb4ff);
+}
+
+.linear-grad-4 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: linear-gradient(to right bottom, green, rgb(70, 240, 107), #ceffdf);
+}
+
+.linear-grad-5 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: linear-gradient(-90deg, blue, rgb(7, 136, 179, 1), #bbb4ff);
+}
+
+/* Radial Gradient */
+
+.radial-grad {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: radial-gradient(blue, lightblue);
+}
+
+.radial-grad-2 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    background-image: radial-gradient(blue 30%, rgb(7, 136, 179, 1) 70%);
+}
+
+.radial-grad-3 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    height: 200px;
+    background-image: radial-gradient(circle, blue 30%, rgb(7, 136, 179, 1) 70%);
+}
+
+.radial-grad-4 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    height: 100px;
+    background-image: radial-gradient(closest-side at 30% 70%, green, rgb(70, 240, 107));
+}
+
+.radial-grad-5 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    height: 100px;
+    background-image: radial-gradient(farthest-side at 70% 30%, green, rgb(70, 240, 107));
+}
+
+.radial-grad-6 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    height: 100px;
+    background-image: radial-gradient(closest-corner at 55% 70%, green, rgb(70, 240, 107));
+}
+
+.radial-grad-7 {
+    display: flex;
+    margin: auto;
+    padding: 25px;
+    max-width: 50%;
+    height: 100px;
+    background-image: radial-gradient(farthest-corner at 70% 55%, green, rgb(70, 240, 107));
+}
